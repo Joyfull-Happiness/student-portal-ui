@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000");
+:root {
+  --green: #2e5e4e;
+  --pink: #dcd3d8;
+}
+/* BASIC FORMATTING
+html {
+    box-sizing: border-box;
+  }
+  *,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+body {
+  font-family: Nunito Sans;
+  margin: auto;
+  text-align: left;
+  background-color: var(--pink);
+  max-width: 1200px;
+  margin: auto;
+  align-content: center;
+  display: block;
+}
+h1 {
+  color: var(--green);
+  text-align: center;
+  padding: 2rem;
+  margin: 3rem;
+  font-size: 8rem;
+}
+.card {
+  background-color: var(--green);
+  border-radius: 11px;
+  padding: 2rem;
+  margin: 4rem;
+  color: var(--pink);
+  text-wrap: rowfwrap;
+  font-size: 1.5rem;
+}
