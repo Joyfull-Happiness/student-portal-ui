@@ -4,15 +4,14 @@
   --green: #2e5e4e;
   --pink: #dcd3d8;
 }
-/* BASIC FORMATTING
-html {
-    box-sizing: border-box;
-  }
-  *,
+BASIC FORMATTING html {
+  box-sizing: border-box;
+}
+*,
 *:before,
 *:after {
   box-sizing: inherit;
-} */
+}
 body {
   font-family: Nunito Sans;
   margin: 0 auto;
@@ -28,7 +27,7 @@ h1 {
   text-align: center;
   padding: 2rem;
   margin: 3rem;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .card {
